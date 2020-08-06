@@ -21,5 +21,8 @@ public class hot{
 		}
 	}
 	System.out.println("Heads: " +h +", Tails: " +t);
+
+	if(h > t)System.out.println("You won!");
+	else System.out.println("You lost.");
     }
 }
